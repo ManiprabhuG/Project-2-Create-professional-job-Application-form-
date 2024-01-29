@@ -1,0 +1,104 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/623960086f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pro-form.css" rel="stylesheet">
+    <title>Professional Contact Form</title>
+
+
+</head>
+    <body>
+        <div class="bg-container">
+            <div class="container">
+                <div class="row">
+
+                   
+                    <div class="main-heading ">
+                        <h3> Job Application Form</h3>
+                    </div>
+
+                    <form class="card-container mt-5 mb-5" method="post" enctype="multipart/form-data">
+
+                        <div class="col-12 input-container mb-5">
+                            <div class="col-6">
+                                <label> <i class="fa-solid fa-user"></i> Name </label>
+                                <input type="text" name="name" placeholder="Enter First Name" aria-hidden="true">
+                            </div>
+
+                            <div class="col-6 mt-3">
+                                <input type="text" class="name" name="name" placeholder="Enter Last Name" aria-hidden="true">
+                            </div>
+                        </div>
+
+                        <div class="col-12 input-container mb-5">
+                            <div class="col-6">
+                                <label> <i class="fa-solid fa-envelope"></i> Email </label>
+                                <input type="text" name="mail" placeholder="Enter Your Mail" aria-hidden="true">
+                            </div>
+
+                            <div class="col-6">
+                                <label> <i class="fa-solid fa-phone"></i> PhnNo </label>
+                                <input type="text" name="name" placeholder="Enter Your Number" aria-hidden="true">
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="col-12">
+                            <div class="input-container mb-3">
+                                <label class="label">Please choose which one do you want to be contact by: </label>
+                                <div class="input" id="row1">
+                                    <input type="radio" name="radio1" value="Phone" class="input-radio">
+                                    <label for="radio1" class="input-label"> Phone </label>
+                                </div>
+
+                                <div class="input" id="row1">
+                                    <input type="radio" name="radio1" value="Mail" class="input-radio">
+                                    <label for="radio1" class="input-label"> Mail </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 input-container mb-3">
+                            <div class="col-6 ">
+                                <label for="comment"> <i class="fa-solid fa-location-dot"></i> Address </label>
+                                <textarea class="textarea-address" name="comment" cols="35" rows="5" placeholder="Type your Address. . ."></textarea>
+                            </div>
+                            
+                            <div class="col-6">
+                                <label for="file"> <i class="fa-solid fa-file"></i> Resume </label>
+                                <div class="file-upload">
+                                    <label for="file-input" class="file-label">
+                                        <span class="file-icon">&#128206;</span> <!-- Unicode character for file icon -->
+                                        Choose a file
+                                    </label>
+                                    <input type="file" id="file-input" class="file-input"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 input-container mb-3">
+                            <div class="col-6">
+                                <label for="text"> Querys </label>
+                                <textarea class="textarea-query" name="comment" cols="95" rows="5" placeholder="Comment. . ."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="text-center"> 
+                            <button>
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

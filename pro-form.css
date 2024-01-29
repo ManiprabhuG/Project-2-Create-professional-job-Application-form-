@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: var(100vh);
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(1, 66, 92);
+    font-weight: bold;
+    position: relative;
+    text-decoration: underline;
+    text-shadow:rgb(255, 255, 255);
+    
+}
+.main-heading{
+    margin-top: 10%;
+    position: relative;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-container{
+    position: relative;
+    left: 7%;
+    padding-top: 10%;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.16);   
+     
+}
+
+label{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(1, 66, 92);
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    font-weight: lighter;
+}
+
+.name{
+    margin-top: 7.5%;
+}
+
+i{
+    padding-right: .03%;
+    color: rgb(1, 66, 92);
+    box-shadow: 15px rgba(255, 255, 255, 0.06);
+}
+
+input{
+    width: 80%;
+    margin: 2% 10%;
+    margin-right: 100%;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .8;
+    border-style: soild;
+    border: 2px solid  rgb(1, 66, 92);
+    border-radius: 5px;
+    box-shadow: 2px rgba(255, 255, 255, 0.06);
+}
+
+.textarea-address{
+    width: 80%;
+    margin: 2% 10%;
+    margin-right: 100%;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .8;
+    border-style: soild;
+    border: 2px solid  rgb(1, 66, 92);
+    border-radius: 5px;
+    box-shadow: 2px rgb(255, 255, 255, 0.06);
+}
+
+.textarea-query{
+    top: 200%;
+    width: 186%;
+    margin: 2% 10%;
+    margin-right: 100%;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .8;
+    border-style: soild;
+    border: 2px solid  rgb(1, 66, 92);
+    border-radius: 5px;
+    box-shadow: 2px rgb(255, 255, 255, 0.06);
+}
+
+textarea::placeholder{
+    padding: 3%;
+}
+
+input::placeholder{
+    padding: 3%;
+}
+
+.input-container {
+    display: flex;
+    align-items: right;
+}
+
+.input-container input {
+    margin-right: 10px;
+}
+
+.input{
+    display: flex;
+    justify-content: start;
+}
+
+.label{
+    font-size: 20x;
+    color: rgb(1, 66, 92);
+    text-align: right;
+    margin-left: 5.8%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.input-label{
+    margin-left: 1%;
+    padding-right: 8%;
+}
+
+.input-radio {
+    margin-left: 21px;
+    margin-top: .01%;
+}
+
+.file-upload{
+    border:  2px solid  rgb(1, 66, 92);
+    background-color:transparent;
+    height: 75%;
+    width: 78%;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10%;
+}
+.fil-upload{
+    position: relative;
+    height: 50%;
+    width: 80%;
+    border:  2px solid  rgb(1, 66, 92);
+    padding: 40px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+.file-label {
+    position: relative;
+    padding: 6px 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 66, 92);
+    border-style: solid;
+    border-radius: 15px;
+    margin-right: 9%;
+    top: 35%;
+}
+
+
+.file-label:hover {
+    background-color: transparent;
+    border: 2px solid rgb(1, 66, 92); /* Change the background color on hover */
+    color: rgb(1, 66, 92);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.file-input {
+    display: none;
+}
+
+button{
+    height: 5%;
+    width: 14%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 66, 92);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-color: rgb(1, 66, 92);
+    border-style: solid;
+    border-radius: 7%;
+}
+
+button:hover{
+    background-color: transparent;
+    color: rgb(1, 66, 92);
+    font-weight: bold;
+}
